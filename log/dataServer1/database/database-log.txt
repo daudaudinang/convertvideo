@@ -1,0 +1,5 @@
+### START LOGGING ###
+[01/10/2021, 08:39:36][database][error] Connect Database: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.edeoy.mongodb.net
+[01/10/2021, 08:41:47][database][error] Connect Database: MongooseServerSelectionError: Server selection timed out after 30000 ms
+[01/10/2021, 08:50:22][database][error] Connect Database: MongooseServerSelectionError: Server selection timed out after 30000 ms
+[01/10/2021, 19:32:17][database][error] Connect Database: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.edeoy.mongodb.net

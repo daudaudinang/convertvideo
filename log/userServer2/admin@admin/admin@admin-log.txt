@@ -1,0 +1,45 @@
+### START LOGGING ###
+
+######[03/10/2021, 20:19:55][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:19:55][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[03/10/2021, 20:20:01][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:20:01][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[03/10/2021, 20:20:31][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:20:32][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[22/10/2021, 15:24:09][admin@admin][notification] REQUEST: GET LIST USER
+[22/10/2021, 15:24:09][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[22/10/2021, 15:36:26][admin@admin][notification] REQUEST: GET A USER
+
+######[22/10/2021, 15:38:18][admin@admin][notification] REQUEST: GET LIST USER
+[22/10/2021, 15:38:19][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[22/10/2021, 16:26:41][admin@admin][notification] REQUEST: GET LIST USER
+[22/10/2021, 16:26:42][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 09:17:53][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 09:17:53][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 09:38:42][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 09:38:42][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 10:02:26][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 10:02:26][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 10:05:34][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 10:05:34][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 11:00:49][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 11:00:50][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 11:01:09][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 11:01:10][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[26/10/2021, 11:36:46][admin@admin][notification] REQUEST: ADD A USER
+[26/10/2021, 11:36:47][admin@admin][success] Add User: Tạo tài khoản thành công!Zalo
+
+######[26/10/2021, 11:36:47][admin@admin][notification] REQUEST: GET LIST USER
+[26/10/2021, 11:36:47][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!

@@ -1,0 +1,47 @@
+.container-file {
+    width: 100%;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.main-container-file {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.button-remove {
+    cursor: pointer;
+}
+
+.main-container-user {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.left-container-user {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+table {
+    padding: 20px;
+}
+
+.left-container-user > a {
+    padding-top: 20px;
+    text-decoration: none;
+}

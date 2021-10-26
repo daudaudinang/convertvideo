@@ -1,0 +1,3 @@
+### START LOGGING ###
+
+######[30/09/2021, 17:35:34][guest][notification] REQUEST: REGISTER

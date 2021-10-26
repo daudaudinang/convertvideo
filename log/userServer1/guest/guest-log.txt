@@ -1,0 +1,4 @@
+### START LOGGING ###
+
+######[01/10/2021, 20:17:40][guest][notification] REQUEST: REGISTER
+[01/10/2021, 20:17:41][guest][success] Register: Tạo tài khoản thành công!

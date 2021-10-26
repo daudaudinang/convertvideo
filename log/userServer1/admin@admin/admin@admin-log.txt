@@ -1,0 +1,62 @@
+### START LOGGING ###
+
+######[01/10/2021, 00:39:33][admin@admin][notification] REQUEST: GET LIST USER
+[01/10/2021, 00:39:33][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[01/10/2021, 20:22:43][admin@admin][notification] REQUEST: GET LIST USER
+[01/10/2021, 20:22:43][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[03/10/2021, 20:19:46][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:19:46][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[03/10/2021, 20:19:52][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:19:52][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[03/10/2021, 20:20:19][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:20:19][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[03/10/2021, 20:20:28][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:20:28][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[03/10/2021, 20:23:25][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:23:26][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[06/10/2021, 14:55:11][admin@admin][notification] REQUEST: GET LIST USER
+[06/10/2021, 14:55:12][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[07/10/2021, 02:34:37][admin@admin][notification] REQUEST: GET LIST USER
+[07/10/2021, 02:34:37][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[07/10/2021, 02:34:42][admin@admin][notification] REQUEST: GET LIST USER
+[07/10/2021, 02:34:43][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[22/10/2021, 15:33:50][admin@admin][notification] REQUEST: GET LIST USER
+[22/10/2021, 15:33:50][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[22/10/2021, 15:34:32][admin@admin][notification] REQUEST: GET LIST USER
+[22/10/2021, 15:34:32][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[22/10/2021, 16:25:24][admin@admin][notification] REQUEST: GET LIST USER
+[22/10/2021, 16:25:24][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[22/10/2021, 16:25:30][admin@admin][notification] REQUEST: GET LIST USER
+[22/10/2021, 16:25:31][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 09:14:38][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 09:14:38][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 09:37:09][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 09:37:09][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 10:59:43][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 10:59:43][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 10:59:52][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 10:59:53][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[26/10/2021, 11:36:22][admin@admin][notification] REQUEST: GET LIST USER
+[26/10/2021, 11:36:23][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[26/10/2021, 11:36:33][admin@admin][notification] REQUEST: REMOVE A USER
+[26/10/2021, 11:36:33][admin@admin][success] Remove ListFile: Xoá list File người dùng fado đã upload thành công!
+[26/10/2021, 11:36:33][admin@admin][success] Remove ListFile: Xoá người dùng fado khỏi database thành công!

@@ -1,0 +1,92 @@
+### START LOGGING ###
+
+######[29/09/2021, 02:05:24][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:05:25][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:05:29][admin@admin][notification] REQUEST: REMOVE A USER
+[29/09/2021, 02:05:29][admin@admin][success] Remove ListFile: Xoá list File User đã upload thành công!
+[29/09/2021, 02:05:29][admin@admin][success] Remove ListFile: Xoá người dùng khỏi database thành công!
+
+######[29/09/2021, 02:05:36][admin@admin][notification] REQUEST: REMOVE A USER
+[29/09/2021, 02:05:37][admin@admin][success] Remove ListFile: Xoá người dùng khỏi database thành công!
+[29/09/2021, 02:05:37][admin@admin][success] Remove ListFile: Xoá list File User đã upload thành công!
+
+######[29/09/2021, 02:11:42][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:11:42][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:14:49][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:14:49][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:15:02][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:15:02][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:16:45][admin@admin][notification] REQUEST: REMOVE A USER
+[29/09/2021, 02:16:46][admin@admin][success] Remove ListFile: Xoá người dùng khỏi database thành công!
+[29/09/2021, 02:16:46][admin@admin][success] Remove ListFile: Xoá list File User đã upload thành công!
+
+######[29/09/2021, 02:19:32][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:19:32][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:21:07][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:21:07][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:21:17][admin@admin][notification] REQUEST: ADD A USER
+[29/09/2021, 02:21:17][admin@admin][success] Add User: Tạo tài khoản thành công!
+
+######[29/09/2021, 02:21:18][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:21:18][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:21:29][admin@admin][notification] REQUEST: GET A USER
+
+######[29/09/2021, 02:21:35][admin@admin][notification] REQUEST: EDIT A USER
+[29/09/2021, 02:21:36][admin@admin][success] Add User: Sửa thông tin người dùng thành công!
+
+######[29/09/2021, 02:21:36][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:21:37][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:22:26][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:22:27][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:22:29][admin@admin][notification] REQUEST: REMOVE A USER
+[29/09/2021, 02:22:29][admin@admin][success] Remove ListFile: Xoá list File User đã upload thành công!
+[29/09/2021, 02:22:29][admin@admin][success] Remove ListFile: Xoá người dùng khỏi database thành công!
+
+######[29/09/2021, 02:23:08][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:23:08][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:23:16][admin@admin][notification] REQUEST: ADD A USER
+[29/09/2021, 02:23:16][admin@admin][success] Add User: Tạo tài khoản thành công!
+
+######[29/09/2021, 02:23:17][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 02:23:17][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 02:23:19][admin@admin][notification] REQUEST: REMOVE A USER
+[29/09/2021, 02:23:20][admin@admin][success] Remove ListFile: Xoá người dùng khỏi database thành công!
+[29/09/2021, 02:23:20][admin@admin][success] Remove ListFile: Xoá list File người dùng hahaha đã upload thành công!
+
+######[29/09/2021, 15:36:12][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 15:36:12][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 17:02:10][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 17:02:11][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+[29/09/2021, 17:09:30][database][error] Connect Database: MongoNetworkError: connection 1 to 34.197.57.19:27017 closed
+[29/09/2021, 17:10:10][database][error] Connect Database: MongoNetworkError: connection 1 to 34.197.57.19:27017 closed
+[29/09/2021, 17:11:10][database][error] Connect Database: MongoNetworkError: read ECONNRESET
+[30/09/2021, 17:17:41][database][error] Connect Database: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.edeoy.mongodb.net
+
+######[30/09/2021, 17:35:34][guest][notification] REQUEST: REGISTER
+
+######[30/09/2021, 18:07:24][admin@admin][notification] REQUEST: GET LIST USER
+[30/09/2021, 18:07:24][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[30/09/2021, 18:07:40][admin@admin][notification] REQUEST: GET LIST USER
+[30/09/2021, 18:07:41][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[30/09/2021, 22:35:20][admin@admin][notification] REQUEST: GET LIST USER
+[30/09/2021, 22:35:22][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[30/09/2021, 22:36:06][admin@admin][notification] REQUEST: GET LIST USER
+[30/09/2021, 22:36:06][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[30/09/2021, 22:43:23][admin@admin][notification] REQUEST: GET LIST USER
+[30/09/2021, 22:43:24][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!

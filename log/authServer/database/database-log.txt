@@ -1,0 +1,6 @@
+### START LOGGING ###
+[29/09/2021, 13:36:50][database][error] Connect Database: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.edeoy.mongodb.net
+[29/09/2021, 17:09:30][database][error] Connect Database: MongoNetworkError: connection 1 to 34.197.57.19:27017 closed
+[29/09/2021, 17:10:10][database][error] Connect Database: MongoNetworkError: connection 1 to 34.197.57.19:27017 closed
+[29/09/2021, 17:11:10][database][error] Connect Database: MongoNetworkError: read ECONNRESET
+[30/09/2021, 17:17:41][database][error] Connect Database: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.edeoy.mongodb.net

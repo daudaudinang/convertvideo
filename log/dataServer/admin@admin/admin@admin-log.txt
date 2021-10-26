@@ -1,0 +1,466 @@
+### START LOGGING ###
+
+######[29/09/2021, 02:05:21][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 02:05:22][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 02:11:39][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 02:11:39][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 02:19:26][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 02:19:26][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 02:19:28][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 02:19:29][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 02:19:36][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 02:19:36][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 02:22:25][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 02:22:26][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 02:23:05][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 02:23:06][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 02:23:28][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 02:23:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:28:03][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:28:04][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:29:11][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 11:29:35][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 11:29:35][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:29:36][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:34:22][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:34:22][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:34:23][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:34:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:34:24][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:34:25][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:34:30][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:34:35][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:34:41][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 11:35:30][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:35:38][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:35:40][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 11:35:40][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:35:41][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:36:11][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:36:12][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:36:16][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:36:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:36:21][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:36:21][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:36:26][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:36:26][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:36:53][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:37:00][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:37:06][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:37:18][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:37:23][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:37:53][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:37:53][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:37:57][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 11:38:09][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:38:28][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:38:44][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:38:47][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:38:55][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 11:38:56][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:38:56][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 15:36:09][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 15:36:10][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 15:36:13][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 15:36:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:01:54][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:01:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:09][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:02:09][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:10][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:02:11][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:12][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:02:12][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:13][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:02:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:15][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:02:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:26][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:02:31][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:02:36][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:02:41][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:02:46][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:02:51][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:06:50][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:06:50][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:06:54][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:06:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:06:58][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:06:59][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:07:06][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:07:07][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:07:13][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:07:19][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:07:24][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:07:29][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 16:08:27][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 16:08:44][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 16:08:48][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 16:08:50][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 16:08:50][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:08:50][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:10:04][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:10:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:01:39][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:01:39][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:02:05][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:02:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:02:12][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:02:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:02:13][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:02:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:02:31][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:02:56][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 17:02:56][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:02:56][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:04:02][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:04:03][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:04:07][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:04:33][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 17:04:33][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:04:33][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:05:14][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:05:15][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:05:24][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:05:49][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 17:05:50][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:05:50][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:06:03][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:06:27][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 17:06:27][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:06:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:08:24][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:08:25][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:08:35][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 17:12:41][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:12:45][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:12:57][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 17:31:12][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:31:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:32:28][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:32:54][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 17:32:54][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:32:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:27:56][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:27:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:28:03][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 22:29:01][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 22:29:01][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:29:02][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:43:56][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:43:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:44:01][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 22:45:00][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 22:45:00][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:45:01][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:45:33][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:34][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:34][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:35][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:35][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:36][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 22:45:38][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:38][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 22:45:38][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:38][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 22:45:40][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:40][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:40][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:40][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:41][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:42][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 22:46:11][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:46:11][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:46:17][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 22:47:13][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 22:47:13][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:47:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 23:02:29][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 23:02:31][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 23:02:36][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 23:03:33][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 23:03:33][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 23:03:34][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 23:09:06][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 23:09:07][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 23:09:13][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 23:10:16][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 23:10:16][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 23:10:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 23:23:33][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:34][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:34][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 23:23:35][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:35][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:35][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:35][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:36][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:36][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:37][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:37][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:37][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:37][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:38][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:38][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:38][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:38][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:39][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 23:23:39][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:39][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:40][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 23:23:40][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 23:23:41][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:41][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:41][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 23:23:42][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:45][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 23:23:45][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 23:23:45][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[30/09/2021, 08:49:23][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 08:49:23][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 08:49:52][admin@admin][notification] REQUEST: UPLOAD FILE
+[30/09/2021, 08:50:47][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[30/09/2021, 08:50:48][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 08:50:49][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 18:07:19][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 18:07:20][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 18:07:22][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 18:07:22][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 18:07:26][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 18:07:26][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 18:07:38][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 18:07:39][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 18:07:42][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 18:07:42][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 18:07:43][admin@admin][notification] REQUEST: REMOVE FILE
+[30/09/2021, 18:07:43][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[30/09/2021, 18:07:45][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 18:07:45][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 18:07:46][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 18:07:46][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:35:17][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:35:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:35:19][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:35:20][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:35:25][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:35:27][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:35:37][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:35:39][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:36:03][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:36:04][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:43:18][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:43:19][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:43:21][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:43:22][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:43:26][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:43:27][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:43:27][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:43:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:45:12][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:45:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:45:14][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:45:15][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:45:16][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:45:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:45:17][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:45:19][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:53:51][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:53:52][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:59:00][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 22:59:01][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 22:59:06][admin@admin][notification] REQUEST: UPLOAD FILE
+[30/09/2021, 23:00:09][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[30/09/2021, 23:04:10][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 23:04:11][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 23:04:18][admin@admin][notification] REQUEST: UPLOAD FILE
+[30/09/2021, 23:05:22][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[30/09/2021, 23:06:20][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 23:06:21][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 23:06:27][admin@admin][notification] REQUEST: UPLOAD FILE
+[30/09/2021, 23:07:32][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[30/09/2021, 23:09:26][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 23:09:27][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 23:09:32][admin@admin][notification] REQUEST: UPLOAD FILE
+[30/09/2021, 23:10:42][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[30/09/2021, 23:13:16][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 23:13:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 23:13:21][admin@admin][notification] REQUEST: UPLOAD FILE
+[30/09/2021, 23:14:28][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[30/09/2021, 23:14:28][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 23:14:29][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 23:29:07][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 23:29:08][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 23:39:13][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 23:39:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:15:54][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:15:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:16:00][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[01/10/2021, 00:16:00][admin@admin][notification] REQUEST: REMOVE FILE
+[01/10/2021, 00:16:01][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[01/10/2021, 00:16:01][admin@admin][notification] REQUEST: REMOVE FILE
+[01/10/2021, 00:16:01][admin@admin][success] Remove File From Database: Xoá File thành công!
+[01/10/2021, 00:16:02][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[01/10/2021, 00:16:08][admin@admin][notification] REQUEST: UPLOAD FILE
+[01/10/2021, 00:19:14][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[01/10/2021, 00:21:23][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:21:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
