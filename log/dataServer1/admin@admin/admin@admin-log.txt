@@ -2129,3 +2129,6 @@ ReferenceError: outputCodec is not defined
 
 ######[27/10/2021, 09:48:39][admin@admin][notification] REQUEST: GET LIST FILE
 [27/10/2021, 09:48:39][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[27/10/2021, 09:53:36][admin@admin][notification] REQUEST: GET LIST FILE
+[27/10/2021, 09:53:37][admin@admin][success] Get ListFile: Lấy danh sách File thành công!

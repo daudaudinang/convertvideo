@@ -1825,3 +1825,6 @@ ReferenceError: videovideoCodecOutput is not defined
 
 ######[27/10/2021, 09:46:12][admin@admin][notification] REQUEST: GET LIST FILE
 [27/10/2021, 09:46:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[27/10/2021, 09:54:18][admin@admin][notification] REQUEST: REMOVE FILE
+[27/10/2021, 09:54:19][admin@admin][success] Remove File From Database: Xoá File thành công!

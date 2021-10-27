@@ -171,3 +171,4 @@
 [27/10/2021, 08:55:18][server][success] Start Server: dataServer1 listening on: 3002
 [27/10/2021, 09:29:58][server][error] Unknown: TypeError: Cannot read property 'filename' of undefined
 [27/10/2021, 09:31:23][server][error] Unknown: TypeError: Cannot read property 'filename' of undefined
+[27/10/2021, 09:53:13][server][success] Start Server: dataServer1 listening on: 3002
