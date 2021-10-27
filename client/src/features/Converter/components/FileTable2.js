@@ -87,6 +87,7 @@ export const FileTable = ({dataFile, handleRemove, setVideoView}) => {
                             </Grid>
                             <Grid item style={{display: "inline-flex", flexWrap: "nowrap", alignItems: "center", height:"20px"}}>
                                 <Button variant="contained" color="success" style={{height:"20px"}}>{oneFile.formatOutput}</Button>
+                                <Button variant="contained" color="primary" style={{height:"20px"}}>{oneFile.videoCodecOutput}</Button>
                             </Grid>
                         </Grid>
                     </TableCell>

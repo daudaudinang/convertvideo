@@ -54,7 +54,6 @@ function ConvertFile(props) {
                 setMessage(response.message);
                 if(response.status === 1) {
                     setChangeData(changeData + 1);
-                    setVideo({...video, status: 2});
                 }
             })
             .catch(err => console.log(err));
@@ -64,8 +63,10 @@ function ConvertFile(props) {
   }
 
   const handleChangeVideoInput = (event) => {
+    if(event.target.files.length > 0) {
     const file = event.target.files[0];
     setVideo({data: file, status: 1});
+    }
   }
   
   const handleChangeOptionVideoOutput = (event) => {
@@ -117,7 +118,7 @@ function ConvertFile(props) {
                                 <select onChange={handleChangeOptionVideoOutput} name="videoCodec" value={outputOption.videoCodec}>
                                     <option value="h264">H.264</option>
                                     <option value="h265">H.265</option>
-                                    <option value="vp9">VP9</option>
+                                    {(outputOption.videoFormat === "hls") ? <option value="vp9" disabled={true} >VP9</option> : <option value="vp9">VP9</option>}
                                 </select>
                             </Grid>
                             

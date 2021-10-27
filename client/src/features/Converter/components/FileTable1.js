@@ -83,7 +83,9 @@ export const FileTable = ({dataFile, handleRemove, setVideoView}) => {
                                 <Link href={BASEURL + "/" + oneFile._id + "/tai-file-convert"} target="_blank" rel="noopener noreferrer">{oneFile.filename}</Link>
                             </Grid>
                             <Grid item style={{display: "inline-flex", flexWrap: "nowrap", alignItems: "center", height:"20px"}}>
-                                <Button variant="outlined" style={{height:"20px"}} color="error" onClick={() => handleChangeVideoView(BASEURL + "/upload/" + oneFile.username + "/" + oneFile.filename + "/Master." + ((oneFile.formatOutput === "hls") ? "m3u8" : ((oneFile.formatOutput === "dash") ? "mpd" : oneFile.formatOutput)))}>Xem thử</Button>
+                                {(oneFile.videoCodecOutput !== "h265") ? <Button variant="outlined" style={{height:"20px"}} color="error" onClick={() => handleChangeVideoView(BASEURL + "/upload/" + oneFile.username + "/" + oneFile.filename + "/Master." + ((oneFile.formatOutput === "hls") ? "m3u8" : ((oneFile.formatOutput === "dash") ? "mpd" : oneFile.formatOutput)))}>Xem thử</Button>
+                                    : <Button variant="contained" style={{height:"20px"}} color="error">Không hỗ trợ</Button>
+                                }
                                 <Button variant="contained" color="success" style={{height:"20px"}}>{oneFile.formatOutput}</Button>
                                 <Button variant="contained" color="primary" style={{height:"20px"}}>{oneFile.videoCodecOutput}</Button>
                             </Grid>

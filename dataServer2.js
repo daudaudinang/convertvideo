@@ -200,7 +200,7 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         `-hls_time 5`,
         `-hls_list_size 0`,
         `-hls_playlist_type vod`,
-        `-hls_segment_filename ./upload/${username}/${filename}/%v-Segment%d.webm`,
+        `-hls_segment_filename ./upload/${username}/${filename}/%v-Segment%d.mp4`,
         `-hls_base_url http://localhost:${process.env.PORT_NGINX}/upload/${username}/${filename}/`,
         `./upload/${username}/${filename}/%vSubMaster.m3u8`
       ]);
@@ -270,7 +270,7 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
           filename: filename,
           formatInput: formatInput,
           formatOutput: formatOutput,
-          videoCodecOutput: videovideoCodecOutput
+          videoCodecOutput: req.body.videoCodec
         });
         file.save().then(() => {
           writeLog("dataServer2",req.username,"success","Upload File","Upload và convert file thành công!");

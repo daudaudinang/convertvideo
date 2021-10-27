@@ -78,7 +78,7 @@ function VideoDisplay({video}) {
     if(hls && hls.currentLevel !== index) hls.currentLevel = index;
     else if(dash && dash.getQualityFor("video") !== index) {
       dash.getSettings().streaming.abr.autoSwitchBitrate.video = false;
-      dash.setQualityFor("video", index, false);
+      dash.setQualityFor("video", index, true);
     }
   }
 
@@ -145,7 +145,6 @@ function VideoDisplay({video}) {
     dash = playerRef.current.getInternalPlayer('dash');
     
     if(hls){
-      console.log(hls.isSupported());
       if(hls.levels.length > 0){
         const level_array = hls.levels.map((one) => {
           return parseInt(one.height);
@@ -158,15 +157,13 @@ function VideoDisplay({video}) {
       if(dash.isReady()){
         setting = dash.getSettings();
         setting.streaming.abr.useDefaultABRRules = false;
-        console.log(dash.getTracksFor("video"));
-      
         const level_array = dash.getTracksFor("video");
         if(level_array.length > 0) setQualityArray(level_array[0].bitrateList.map((one) => {
           return parseInt(one.height);
         }));
-        setting.streaming.bufferTimeAtTopQuality = 10;
-        setting.streaming.bufferTimeAtTopQualityLongForm = 15;
-        setting.streaming.stableBufferTime = 10;
+        setting.streaming.bufferTimeAtTopQuality = 5;
+        setting.streaming.bufferTimeAtTopQualityLongForm = 10;
+        setting.streaming.stableBufferTime = 5;
         setting.streaming.fastSwitchEnabled = true;
         dash.updateSettings(setting);
       }

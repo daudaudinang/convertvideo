@@ -152,3 +152,5 @@
 [26/10/2021, 17:58:08][server][success] Start Server: User Server 1 listening on: 3003
 [26/10/2021, 17:58:44][server][success] Start Server: User Server 1 listening on: 3003
 [26/10/2021, 18:11:31][server][success] Start Server: User Server 1 listening on: 3003
+[27/10/2021, 08:44:52][server][success] Start Server: User Server 1 listening on: 3003
+[27/10/2021, 08:55:18][server][success] Start Server: User Server 1 listening on: 3003
