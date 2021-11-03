@@ -14,7 +14,7 @@ function ConvertFile(props) {
     const listFile = useSelector(state => state.file.listFile);
     const dispatch = useDispatch();
 
-    const [video, setVideo] = useState({data: null, status: 0}); // status: 0: Chưa có file upload, 1: Đã có file upload, chưa convert, 2: Đã convert hoàn thành
+    const [video, setVideo] = useState({data: null, status: 0});
     const [videoView, setVideoView] = useState("https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd");
     const [message, setMessage] = useState(null);
     const [changeData, setChangeData] = useState(0);
@@ -23,8 +23,6 @@ function ConvertFile(props) {
     const flexStyle = {display: 'flex', flexDirection: 'row', alignItems: 'flex-start', padding:'10px'}
     const flexStyle2 = {display: 'flex', flexDirection: 'row', alignItems: 'center'}
     const flexStyle2Item = {marginRight: "20px"}
-
-    const styleHeader = {marginBottom: '30px'}
 
     useEffect(() => {
         FileApi.getListFile()
@@ -95,11 +93,16 @@ function ConvertFile(props) {
     }); 
   }
 
+  const handleChangeVideoView = (video) => {
+    setVideoView(video);
+    console.log(video);
+  }
+
     return (
         <>
         <Banner title="Convert your video 🎉" backgroundUrl={Images.PINK_BG} message={message} />
         <Grid container style={flexStyle} spacing={2}>
-            <Grid item xs={6}>
+            <Grid item xs={12} lg={6}>
                 <Grid container style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}} spacing={1}>
                     <Grid item>
                         <Grid container style={flexStyle2} elevation={10}>
@@ -133,7 +136,8 @@ function ConvertFile(props) {
                 </Grid>
                 
             </Grid>
-            <Grid item style={styleHeader} xs={6}><FileTable dataFile={listFile} handleRemove={handleRemove} setVideoView={setVideoView}/></Grid>
+            <Grid item xs={12} lg={6}>
+                <FileTable dataFile={listFile} handleRemove={handleRemove} handleChangeVideoView={handleChangeVideoView} style={{paddingRight: "10px"}}/></Grid>
         </Grid>
         </>
     )

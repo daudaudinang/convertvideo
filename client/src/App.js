@@ -17,7 +17,7 @@ import UserController from "./features/Converter/pages/UserController";
 
 function App() {
   const isLogin = useSelector((state) => state.login.isLogin);
-  const [message, setMessage] = useState("");
+  const [notification, setNotification] = useState({status: false, message: ""});
   const [account_type, setAccount_type] = useState(null);
   const dispatch = useDispatch();
 
@@ -46,13 +46,13 @@ function App() {
   const handleLogin = (dataLogin) => {
     authApi.login(dataLogin)
       .then((response) => {
-        setMessage(response.message);
+        setNotification({status: (response.status === 1) ? true : false, message: response.message});
         if(response.status === 1){
           const actionLogin = login();
           dispatch(actionLogin);
           
           // reset Message báo đăng nhập nếu đăng nhập thành công
-          setMessage("");
+          setNotification({status: false, message:""});
           setAccount_type(response.account_type);
 
           localStorage.setItem("isLogin", true);
@@ -66,7 +66,7 @@ function App() {
   const handleRegister = (dataRegister) => {
     userApi.register(dataRegister)
       .then((response) => {
-        setMessage(response.message);
+        setNotification({status: (response.status === 1) ? true : false, message: response.message});
       })
       .catch((err) => console.log(err));
   };
@@ -116,13 +116,12 @@ function App() {
   } else {
     return (
       <BrowserRouter>
-        <p className="message">{message}</p>
         <Switch>
           <Route path="/loginForm">
-            <LoginForm handleLogin={handleLogin} />
+            <LoginForm handleLogin={handleLogin} notification={notification}/>
           </Route>
           <Route path="/registerForm">
-            <RegisterForm handleRegister={handleRegister} />
+            <RegisterForm handleRegister={handleRegister} notification={notification}/>
           </Route>
           <Redirect to="/loginForm" />
         </Switch>

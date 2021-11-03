@@ -1,7 +1,9 @@
-import { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import ReactPlayer from "react-player";
 import screenfull from 'screenfull';
 import PlayerControls from './PlayerControls';
+import Hls from 'hls.js';
+import Dash from 'dashjs';
 
 const format = (seconds) => {
   if(isNaN(seconds)) {
@@ -23,55 +25,172 @@ let count = 0;
 var hls = null;
 var dash = null;
 var setting = null;
+let countInterval = 0;
 
 function VideoDisplay({video}) {
-  const [state, setState] = useState({
-    playing: false,
-    muted: true,
-    volume: 0.5,
-    playbackRate: 1.0,
-    fullScreen: false,
-    seeking: false,
-    played: 0
-  });
+  const [playing, setPlaying] = useState(false);
+  const [muted, setMuted] = useState(false);
+  const [volume, setVolume] = useState(0.5);
+  const [playbackRate, setPlaybackRate] = useState(1.0);
+  const [fullScreen, setFullScreen] = useState(false);
+  const [seeking, setSeeking] = useState(false);
+  const [played, setPlayed] = useState(0);
 
   const [timeDisplayFormat, setTimeDisplayFormat] = useState("normal");
-  const [activePip, setActivePip] = useState(false);
+  // const [activePip, setActivePip] = useState(false);
   const [quality_array, setQualityArray] = useState([]);
 
   const playerRef = useRef(null);
   const containerRef = useRef(null);
   const controlsRef = useRef(null);
 
+  // Setup giá trị mặc định cho video Element
+  useEffect(() => {
+    window.onload = function(){
+      const videoElement = document.querySelector('video');
+      videoElement.autoplay = false;
+      videoElement.controls = false;
+      videoElement.muted = false;
+      videoElement.defaultPlaybackRate = 1;
+      videoElement.volume = 0.5;
+      videoElement.loop = false;  
+
+      videoElement.onended = () => {
+        setPlaying(false);
+        videoElement.pause();
+      } // Tức là mình đang khai báo trước cho thằng videoElement 1 tác vụ, khi nó kết thúc thì thực hiện hàm này
+      // Chứ không phải là khi sự kiện kết thúc xảy ra thì mới bắt đầu gọi hàm này
+    }
+  }, []);
+
+  // Xử lý khi thay đổi video
+  useEffect(() => {
+    // Set state về mặc định
+    setPlaying(false);
+    setMuted(false);
+    setVolume(0.5);
+    setPlaybackRate(1.0);
+    setFullScreen(false);
+    setPlayed(0);
+    setQualityArray([]);
+    
+    const videoElement = document.querySelector('video');
+
+    // Set video Element về ban đầu
+
+    // Xử lý nếu đầu vào nhận được là video hls hoặc video dash
+    // Phân giải url video để lấy định dạng
+    const videoType = video.split('.').pop();
+      switch(videoType) {
+        case 'mp4':
+          if(hls) hls.destroy();
+          videoElement.src = video;
+          break;
+        case 'm3u8':
+          if(hls) hls.destroy();
+          if(dash) dash.destroy();
+          hls = new Hls();
+          hls.attachMedia(videoElement);
+          hls.on(Hls.Events.MEDIA_ATTACHED, function() {
+            console.log("Gắn xong element");
+            hls.loadSource(video);
+            // hls.on(Hls.Events.MANIFEST_PARSED, function(event, data){
+            //   const array_tmp = data.levels.filter(oneLevel => (oneLevel.codecSet !== "")).map(oneLevel => oneLevel.height);
+            //   if(array_tmp.length > 0){
+            //     setQualityArray(array_tmp);                
+            //   } else {
+            //     hls.destroy();
+            //     console.log("Codec không hỗ trợ");
+            //   }
+            // });
+            hls.on(Hls.Events.FRAG_LOADED, function(event, data){
+              console.log(data);
+            })
+
+          });
+          break;
+        case 'mpd':
+          if(hls) hls.destroy();
+          if(dash) dash.destroy();
+          dash = Dash.MediaPlayer().create();
+          dash.initialize(videoElement, video, false);
+          // dash.on(Dash.MediaPlayer.events['PLAYBACK_METADATA_LOADED'], function(e){
+          //   if(dash.getTracksFor('video').length > 0){
+          //     setQualityArray(dash.getTracksFor('video')[0].bitrateList.map(oneLevel => oneLevel.height));
+          //   } else {
+          //     dash.destroy();
+          //     console.log("Codec không hỗ trợ!");
+          //   }
+          // })
+          break;
+      }
+  }, [video]);
+
+  // Play/ pause
   const togglePlay = () => {
-    setState({...state, playing: !state.playing});
-    // dash.setQualityFor("video", dash.getQualityFor("video") + 1, true);
+    const videoElement = playerRef.current;
+    if(playing === false) {
+      videoElement.play();
+      countInterval = setInterval(() => {
+        if(count > 3){
+          controlsRef.current.style.visibility = "hidden";
+          count = 0;
+        }
+    
+        if(controlsRef.current.style.visibility === "visible") {
+          count = count + 1;
+        }
+    
+        if(seeking === false) {
+          setPlayed(videoElement.currentTime / videoElement.duration);
+        }
+      }, 1000);
+
+      // var canvas = document.getElementById('canvas');
+      // var video = playerRef.current.getInternalPlayer();
+   
+      // canvas.width = video.clientWidth;
+      // canvas.height = video.clientHeight;
+
+      // const draw = () => {
+      //   let ctx = canvas.getContext('2d');
+      //   ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+      //   setTimeout(draw, 1000/120); //120 FPS
+      // }
+      // window.requestAnimationFrame(draw);
+    } else {
+      clearInterval(countInterval);
+      videoElement.pause();
+    }
+    setPlaying(!playing);
   }
 
+  // Tua ngược
   const handleRewind = () => {
-    playerRef.current.seekTo(playerRef.current.getCurrentTime() - 5, 'seconds');
+    playerRef.current.currentTime -= 5;
   }
 
+  // Tua tới
   const handleForward = () => {
-    playerRef.current.seekTo(playerRef.current.getCurrentTime() + 5, 'seconds');
+    playerRef.current.currentTime += 5;
   }
 
+  // Tắt âm
   const toggleMute = () => {
-    setState({
-      ...state, muted: !state.muted
-    })
+    playerRef.current.muted = !muted;
+    setMuted(!muted);
+    console.log(playing);
   }
 
   const changeVolume = (event) => {
-    setState({
-      ...state, volume: Number(event.target.value) / 100, muted: event.target.value === 0 ? true : false
-    })
+    setMuted(false);
+    playerRef.current.volume = Number(event.target.value) / 100;
+    setVolume(Number(event.target.value) / 100);
   }
 
   const changePlaybackRate = (rate) => {
-    setState({
-      ...state, playbackRate: Number(rate)
-    })
+    playerRef.current.playbackRate = Number(rate);
+    setPlaybackRate(Number(rate));
   }
 
   const changeQuality = (index) => {
@@ -83,41 +202,20 @@ function VideoDisplay({video}) {
   }
 
   const toggleFullScreen = () => {
-    setState({
-      ...state, fullScreen: !state.fullScreen
-    });
+    setFullScreen(!fullScreen);
     screenfull.toggle(containerRef.current);
   }
 
-  const handleProgress = (progress) => {
-
-    if(count > 3){
-      controlsRef.current.style.visibility = "hidden";
-      count = 0;
-    }
-
-    if(controlsRef.current.style.visibility === "visible") {
-      count = count + 1;
-    }
-
-    if(!state.seeking) {
-      setState({
-        ...state, played: progress.played
-      });
-    }
-  }
-
+  // Thao tác nhấn giữ chuột ở thanh timeline
   const handleSeekMouseDown = (e) => {
-    setState({
-      ...state, seeking: true
-    })
+    setSeeking(true);
   }
 
+  // Thao tác thả chuộ ra ở vị trí mới
   const handleSeekMouseUp = (e, newValue) => {
-    setState({
-      ...state, seeking: false, played: parseFloat(newValue / 100)
-    });
-    playerRef.current.seekTo(newValue/100);
+    setSeeking(false);
+    setPlayed(parseFloat(newValue / 100));
+    playerRef.current.currentTime = (newValue/100) * playerRef.current.duration;
   }
 
   const handleChangeDisplayFormat = () => {
@@ -126,54 +224,51 @@ function VideoDisplay({video}) {
     );
   }
 
-  const handleEnded = () => {
-    setState({...state, playing: false})
-  }
-
   const handleMouseMove = () => {
     controlsRef.current.style.visibility = "visible";
     count = 0;
   };
 
-  const toggleActivePip = () => {
-    setActivePip(!activePip);
-    if(state.fullScreen) toggleFullScreen();
-  }
+  const toggleActivePip = () => {}
+  // const toggleActivePip = () => {
+  //   setActivePip(!activePip);
+  //   if(fullScreen) toggleFullScreen();
+  // }
 
-  const handleReady = () => {
-    hls = playerRef.current.getInternalPlayer('hls');
-    dash = playerRef.current.getInternalPlayer('dash');
-    
-    if(hls){
-      if(hls.levels.length > 0){
-        const level_array = hls.levels.map((one) => {
-          return parseInt(one.height);
-        });
-        setQualityArray(level_array);
-      }
-    }
+  // const handleReady = () => {
+  //   hls = playerRef.current.getInternalPlayer('hls');
+  //   dash = playerRef.current.getInternalPlayer('dash');
 
-    if(dash) { 
-      if(dash.isReady()){
-        setting = dash.getSettings();
-        setting.streaming.abr.useDefaultABRRules = false;
-        const level_array = dash.getTracksFor("video");
-        if(level_array.length > 0) setQualityArray(level_array[0].bitrateList.map((one) => {
-          return parseInt(one.height);
-        }));
-        setting.streaming.bufferTimeAtTopQuality = 5;
-        setting.streaming.bufferTimeAtTopQualityLongForm = 10;
-        setting.streaming.stableBufferTime = 5;
-        setting.streaming.fastSwitchEnabled = true;
-        dash.updateSettings(setting);
-      }
-    }
-  }
+  //   if(hls){
+  //     if(hls.levels.length > 0){
+  //       const level_array = hls.levels.map((one) => {
+  //         return parseInt(one.height);
+  //       });
+  //       setQualityArray(level_array);
+  //     }
+  //   }
 
-  const currentTime = playerRef.current ? playerRef.current.getCurrentTime() : "00:00";
-  const duration = playerRef.current ? playerRef.current.getDuration() : "00:00";
+  //   if(dash) { 
+  //     if(dash.isReady()){
+  //       setting = dash.getSettings();
+  //       setting.streaming.abr.useDefaultABRRules = false;
+  //       const level_array = dash.getTracksFor("video");
+  //       if(level_array.length > 0) setQualityArray(level_array[0].bitrateList.map((one) => {
+  //         return parseInt(one.height);
+  //       }));
+  //       setting.streaming.bufferTimeAtTopQuality = 5;
+  //       setting.streaming.bufferTimeAtTopQualityLongForm = 10;
+  //       setting.streaming.stableBufferTime = 5;
+  //       setting.streaming.fastSwitchEnabled = true;
+  //       dash.updateSettings(setting);
+  //     }
+  //   }
+  // }
+
+  const currentTime = playerRef.current ? playerRef.current.currentTime : "00:00";
+  const duration = playerRef.current ? playerRef.current.duration : "00:00";
   
-  const elapsedTime = timeDisplayFormat === "normal" ? format(currentTime) : `-${format(duration - currentTime)}`;
+  const elapsedTime = (timeDisplayFormat === "normal") ? format(currentTime) : `-${format(duration - currentTime)}`;
   const totalDuration = format(duration);
 
   return (
@@ -184,46 +279,35 @@ function VideoDisplay({video}) {
         onMouseMove={handleMouseMove}
       >
         <div className="video-wrapper">
-          <ReactPlayer
+          <video
             ref={playerRef}
-            width="inherit"
-            height="inherit"
-            url={video}
-            controls={false}
-            playing={state.playing}
-            muted={state.muted}
-            volume={state.volume}
-            playbackRate={state.playbackRate}
-            onReady={handleReady}
-            onProgress={handleProgress}
-            onEnded={handleEnded}
-            pip={activePip}
-            stopOnUnmount={true}
+            style={{width:"inherit", height:"inherit", borderRadius:"15px"}}
           >
-          </ReactPlayer>
+          </video>
+        <canvas id="canvas" width="320" height="180"></canvas>
           <PlayerControls  
             ref={controlsRef}
             togglePlay={togglePlay}
-            playing={state.playing}
+            playing={playing}
             handleRewind={handleRewind}
             handleForward={handleForward}
-            muted={state.muted}
+            muted={muted}
             toggleMute={toggleMute}
-            volume={state.volume}
+            volume={volume}
             changeVolume={changeVolume}
-            playbackRate={state.playbackRate}
+            playbackRate={playbackRate}
             changePlaybackRate={changePlaybackRate}
             changeQuality={changeQuality}
-            fullScreen={state.fullScreen}
+            fullScreen={fullScreen}
             toggleFullScreen={toggleFullScreen}
-            played={state.played}
+            played={played}
             onSeekMouseDown={handleSeekMouseDown}
             onSeekMouseUp={handleSeekMouseUp}
             elapsedTime={elapsedTime}
             totalDuration={totalDuration}
             onChangeDisplayFormat={handleChangeDisplayFormat}
             toggleActivePip={toggleActivePip}
-            activePip={activePip}
+            // activePip={activePip}
             quality_array={quality_array}
           />
         </div>

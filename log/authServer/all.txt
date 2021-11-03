@@ -11567,3 +11567,18 @@
 
 ######[26/10/2021, 11:58:46][guest][notification] REQUEST: LOGIN
 [26/10/2021, 11:58:46][admin@admin][success] Login: Đăng nhập thành công!
+
+######[03/11/2021, 08:46:05][guest][notification] REQUEST: LOGIN
+[03/11/2021, 08:46:15][guest][error] Login: Đăng nhập thất bại - {"username":"admin@admin","password":"admin123"}
+
+######[03/11/2021, 08:46:17][guest][notification] REQUEST: LOGIN
+[03/11/2021, 08:46:27][guest][error] Login: Đăng nhập thất bại - {"username":"admin@admin","password":"admin123"}
+
+######[03/11/2021, 08:55:15][guest][notification] REQUEST: LOGIN
+[03/11/2021, 08:55:25][guest][error] Login: Đăng nhập thất bại - {"username":"admin@admi","password":"admin123"}
+
+######[03/11/2021, 09:06:14][guest][notification] REQUEST: LOGIN
+[03/11/2021, 09:06:24][guest][error] Login: Đăng nhập thất bại - {"username":"admin@ad","password":"admin123"}
+
+######[03/11/2021, 09:07:18][guest][notification] REQUEST: LOGIN
+[03/11/2021, 09:07:51][admin@admin][success] Login: Đăng nhập thành công!

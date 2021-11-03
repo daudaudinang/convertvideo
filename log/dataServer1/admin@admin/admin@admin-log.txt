@@ -2132,3 +2132,441 @@ ReferenceError: outputCodec is not defined
 
 ######[27/10/2021, 09:53:36][admin@admin][notification] REQUEST: GET LIST FILE
 [27/10/2021, 09:53:37][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:06:52][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:06:53][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:14:32][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:14:32][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:17:01][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:17:02][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:17:28][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:17:29][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:17:54][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:17:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:18:16][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:18:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:20:31][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:20:31][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:21:07][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:21:08][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:25:16][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:25:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:35:46][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:35:47][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:57:26][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:57:26][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:57:37][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:57:38][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 09:57:51][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 09:57:52][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:03:15][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:03:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:11:09][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:11:09][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:13:32][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:13:33][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:13:42][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:13:42][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:15:20][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:15:21][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:15:30][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:15:31][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:16:46][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:16:47][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:22:24][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:22:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:32:58][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:32:58][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:54:10][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:54:11][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:56:30][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:56:31][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 10:57:45][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 10:57:45][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 11:02:44][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 11:02:44][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 11:06:52][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 11:06:52][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 11:09:09][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 11:09:09][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 11:09:13][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[02/11/2021, 11:09:13][admin@admin][notification] REQUEST: REMOVE FILE
+[02/11/2021, 11:09:14][admin@admin][success] Remove File From Database: Xoá File thành công!
+[02/11/2021, 11:09:14][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[02/11/2021, 11:09:22][admin@admin][notification] REQUEST: UPLOAD FILE
+[02/11/2021, 11:10:13][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[02/11/2021, 11:29:22][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 11:29:22][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 11:30:23][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 11:30:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 11:34:14][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 11:34:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 11:35:43][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 11:35:44][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 11:40:48][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 11:40:49][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 11:42:46][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 11:42:47][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 12:01:57][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 12:01:58][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 14:06:40][admin@admin][notification] REQUEST: UPLOAD FILE
+[02/11/2021, 14:08:43][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[02/11/2021, 14:32:49][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 14:32:49][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 14:48:31][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 14:48:31][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 14:50:40][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 14:50:41][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:00:33][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:00:34][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:00:48][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:00:48][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:14:22][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:14:27][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:17:11][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:17:11][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:30:01][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:30:02][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:36:53][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:36:54][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:37:32][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:37:33][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:37:52][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:37:53][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:39:23][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:39:26][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:42:45][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:42:46][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:43:54][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:43:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:45:26][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:45:27][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 15:46:41][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 15:46:43][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 16:03:32][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 16:03:32][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 16:04:23][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 16:04:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 16:11:52][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 16:11:53][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 16:14:59][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 16:15:00][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 16:15:33][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 16:15:34][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 16:17:37][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 16:17:37][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 16:39:15][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 16:39:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[02/11/2021, 17:40:27][admin@admin][notification] REQUEST: GET LIST FILE
+[02/11/2021, 17:40:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 09:07:52][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 09:07:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 09:10:49][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 09:11:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 09:27:40][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 09:27:59][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 09:29:09][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 09:29:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 09:35:18][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 09:35:23][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 09:35:31][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 09:35:54][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 09:43:25][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 09:44:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 09:45:36][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 09:45:40][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 09:46:49][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 09:46:59][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 09:49:25][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 09:50:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:12:16][admin@admin][notification] REQUEST: GET LIST FILE
+
+######[03/11/2021, 10:13:45][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:13:49][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[03/11/2021, 10:13:49][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:21:21][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:21:25][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:21:27][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:21:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:21:53][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:21:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:21:56][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:21:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:22:18][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:22:20][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:23:18][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:23:19][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:26:00][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:26:01][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:26:16][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:26:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:40:34][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:40:35][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:41:22][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:41:25][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:42:00][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:42:01][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:44:18][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:44:19][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:49:36][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:49:39][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:51:28][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:51:33][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:55:23][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:55:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 10:57:28][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 10:57:29][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:03:47][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:03:51][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:04:14][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:04:22][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:05:04][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:05:04][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:05:31][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:05:32][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:07:26][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:07:27][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:08:08][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:08:09][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:08:47][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:08:47][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:10:30][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:10:31][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:15:00][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:15:00][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:15:04][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:15:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:17:02][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:17:03][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:17:21][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:17:21][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:19:31][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:19:31][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:19:42][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:19:42][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:20:11][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:20:12][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:20:13][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:20:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:20:34][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:20:35][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:20:40][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:20:41][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:21:17][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:21:19][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:21:38][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:21:39][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:21:56][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:21:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:22:00][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:22:01][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:22:20][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:22:21][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:22:26][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:22:27][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:25:06][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:25:07][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:25:10][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:25:12][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:25:49][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:25:50][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:26:19][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:26:20][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:27:33][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:27:34][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:27:52][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:27:52][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:35:07][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:35:08][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:35:12][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:35:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:36:07][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:36:09][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:38:26][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:38:27][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:38:51][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:38:52][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:39:55][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:39:56][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:40:12][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:40:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:40:38][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:40:56][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:42:00][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:42:01][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:42:35][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:42:35][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:46:14][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:46:15][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:46:42][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:46:43][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 11:57:34][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 11:57:34][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 14:09:31][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 14:09:35][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 14:12:18][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 14:12:26][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 14:17:19][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 14:17:29][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 14:22:58][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 14:23:20][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 14:24:00][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 14:25:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 14:28:08][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 14:28:29][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 14:42:14][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 14:43:07][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 14:56:36][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 14:56:36][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 14:56:52][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 14:57:00][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 15:07:36][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 15:07:37][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 15:11:33][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 15:11:44][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/11/2021, 15:11:58][admin@admin][notification] REQUEST: GET LIST FILE
+[03/11/2021, 15:12:46][admin@admin][success] Get ListFile: Lấy danh sách File thành công!

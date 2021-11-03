@@ -24,6 +24,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "ffmpeg-cli": "^2.7.5",
+    "hls.js": "^1.0.13-0.canary.8030",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.7",
     "multer": "^1.4.3",

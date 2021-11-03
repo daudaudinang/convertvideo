@@ -13,7 +13,7 @@ function Login(props) {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
-    const {handleLogin} = props;
+    const {handleLogin, notification} = props;
 
     const changeUsername = (event) => {
         setUsername(event.target.value);
@@ -43,6 +43,11 @@ function Login(props) {
                 <Grid align='center'>
                      <Avatar style={avatarStyle}><LockOutlinedIcon/></Avatar>
                     <h2>Sign In</h2>
+                    {(notification.status === true) ?
+                        <Typography variant="subtitle1" display="block" color="success">{notification.message}</Typography>
+                        :
+                        <Typography variant="subtitle1" display="block" color="error">{notification.message}</Typography>
+                    }                   
                 </Grid>
                 <TextField label='Username' style={textFileStyle} name="username" placeholder='Enter username' fullWidth required onChange={changeUsername}/>
                 <TextField label='Password' style={textFileStyle} name="password" placeholder='Enter password' type='password' fullWidth required onChange={changePassword}/>
