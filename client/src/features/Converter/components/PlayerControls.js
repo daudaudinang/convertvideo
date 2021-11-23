@@ -41,6 +41,9 @@ const useStyles = makeStyles({
       transform: "scale(1.5)",
     },
   },
+  // reactions: {
+  //   background: "yellow",
+  // }
 });
 
 const PrettoSlider = styled(Slider)({
@@ -51,8 +54,8 @@ const PrettoSlider = styled(Slider)({
     border: "none",
   },
   "& .MuiSlider-thumb": {
-    height: 10,
-    width: 14,
+    height: 6,
+    width: 6,
     backgroundColor: "#fff",
     border: "2px solid currentColor",
     "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
@@ -105,7 +108,8 @@ export default forwardRef((props, ref) => {
       totalDuration,
       onChangeDisplayFormat,
       quality_array,
-      toggleActivePip
+      toggleActivePip,
+      buffered
     } = props;
 
     const classes = useStyles();
@@ -156,6 +160,9 @@ export default forwardRef((props, ref) => {
             </div>
 
             <div className="bottom-control">
+            <Grid className={classes.reactions} container>
+              
+            </Grid>
             <div className="slider">
                 <PrettoSlider onMouseDown={onSeekMouseDown} onChangeCommitted={onSeekMouseUp}
                   size="small"

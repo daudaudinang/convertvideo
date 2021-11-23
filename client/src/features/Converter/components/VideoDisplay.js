@@ -1,6 +1,4 @@
 import React, { useRef, useState, useEffect } from 'react';
-import ReactPlayer from "react-player";
-import screenfull from 'screenfull';
 import PlayerControls from './PlayerControls';
 import Hls from 'hls.js';
 import Dash from 'dashjs';
@@ -35,9 +33,10 @@ function VideoDisplay({video}) {
   const [fullScreen, setFullScreen] = useState(false);
   const [seeking, setSeeking] = useState(false);
   const [played, setPlayed] = useState(0);
+  const [buffered, setBuffered] = useState(0);
 
   const [timeDisplayFormat, setTimeDisplayFormat] = useState("normal");
-  // const [activePip, setActivePip] = useState(false);
+  const [activePip, setActivePip] = useState(false);
   const [quality_array, setQualityArray] = useState([]);
 
   const playerRef = useRef(null);
@@ -84,44 +83,44 @@ function VideoDisplay({video}) {
       switch(videoType) {
         case 'mp4':
           if(hls) hls.destroy();
+          if(dash) dash.destroy();
+          clearInterval(countInterval);
           videoElement.src = video;
           break;
         case 'm3u8':
+          clearInterval(countInterval);
           if(hls) hls.destroy();
           if(dash) dash.destroy();
           hls = new Hls();
           hls.attachMedia(videoElement);
           hls.on(Hls.Events.MEDIA_ATTACHED, function() {
-            console.log("Gắn xong element");
             hls.loadSource(video);
-            // hls.on(Hls.Events.MANIFEST_PARSED, function(event, data){
-            //   const array_tmp = data.levels.filter(oneLevel => (oneLevel.codecSet !== "")).map(oneLevel => oneLevel.height);
-            //   if(array_tmp.length > 0){
-            //     setQualityArray(array_tmp);                
-            //   } else {
-            //     hls.destroy();
-            //     console.log("Codec không hỗ trợ");
-            //   }
-            // });
-            hls.on(Hls.Events.FRAG_LOADED, function(event, data){
-              console.log(data);
-            })
+            hls.on(Hls.Events.MANIFEST_PARSED, function(event, data){
+              const array_tmp = data.levels.filter(oneLevel => (oneLevel.codecSet !== "")).map(oneLevel => oneLevel.height);
+              if(array_tmp.length > 0){
+                setQualityArray(array_tmp);                
+              } else {
+                hls.destroy();
+                console.log("Codec không hỗ trợ");
+              }
+            });
 
           });
           break;
         case 'mpd':
+          clearInterval(countInterval);
           if(hls) hls.destroy();
           if(dash) dash.destroy();
           dash = Dash.MediaPlayer().create();
           dash.initialize(videoElement, video, false);
-          // dash.on(Dash.MediaPlayer.events['PLAYBACK_METADATA_LOADED'], function(e){
-          //   if(dash.getTracksFor('video').length > 0){
-          //     setQualityArray(dash.getTracksFor('video')[0].bitrateList.map(oneLevel => oneLevel.height));
-          //   } else {
-          //     dash.destroy();
-          //     console.log("Codec không hỗ trợ!");
-          //   }
-          // })
+          dash.on(Dash.MediaPlayer.events['PLAYBACK_METADATA_LOADED'], function(e){
+            if(dash.getTracksFor('video').length > 0){
+              setQualityArray(dash.getTracksFor('video')[0].bitrateList.map(oneLevel => oneLevel.height));
+            } else {
+              dash.destroy();
+              console.log("Codec không hỗ trợ!");
+            }
+          })
           break;
       }
   }, [video]);
@@ -132,32 +131,26 @@ function VideoDisplay({video}) {
     if(playing === false) {
       videoElement.play();
       countInterval = setInterval(() => {
-        if(count > 3){
-          controlsRef.current.style.visibility = "hidden";
-          count = 0;
-        }
-    
-        if(controlsRef.current.style.visibility === "visible") {
-          count = count + 1;
-        }
-    
-        if(seeking === false) {
-          setPlayed(videoElement.currentTime / videoElement.duration);
-        }
+        if(controlsRef.current){
+          if(count > 3){
+            controlsRef.current.style.visibility = "hidden";
+            count = 0;
+          }
+      
+          if(controlsRef.current.style.visibility === "visible") {
+            count = count + 1;
+          }
+      
+          if(seeking === false) {
+            setPlayed(videoElement.currentTime / videoElement.duration);
+            if(videoElement.buffered.length > 0){
+              setBuffered(videoElement.buffered.end(0) / videoElement.duration);
+            }
+          }
+        } else {
+          clearInterval(countInterval);
+        }   
       }, 1000);
-
-      // var canvas = document.getElementById('canvas');
-      // var video = playerRef.current.getInternalPlayer();
-   
-      // canvas.width = video.clientWidth;
-      // canvas.height = video.clientHeight;
-
-      // const draw = () => {
-      //   let ctx = canvas.getContext('2d');
-      //   ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-      //   setTimeout(draw, 1000/120); //120 FPS
-      // }
-      // window.requestAnimationFrame(draw);
     } else {
       clearInterval(countInterval);
       videoElement.pause();
@@ -179,7 +172,6 @@ function VideoDisplay({video}) {
   const toggleMute = () => {
     playerRef.current.muted = !muted;
     setMuted(!muted);
-    console.log(playing);
   }
 
   const changeVolume = (event) => {
@@ -202,8 +194,9 @@ function VideoDisplay({video}) {
   }
 
   const toggleFullScreen = () => {
+    if(fullScreen === false) containerRef.current.requestFullscreen();
+    else containerRef.current.exitFullscreen();
     setFullScreen(!fullScreen);
-    screenfull.toggle(containerRef.current);
   }
 
   // Thao tác nhấn giữ chuột ở thanh timeline
@@ -229,41 +222,15 @@ function VideoDisplay({video}) {
     count = 0;
   };
 
-  const toggleActivePip = () => {}
-  // const toggleActivePip = () => {
-  //   setActivePip(!activePip);
-  //   if(fullScreen) toggleFullScreen();
-  // }
-
-  // const handleReady = () => {
-  //   hls = playerRef.current.getInternalPlayer('hls');
-  //   dash = playerRef.current.getInternalPlayer('dash');
-
-  //   if(hls){
-  //     if(hls.levels.length > 0){
-  //       const level_array = hls.levels.map((one) => {
-  //         return parseInt(one.height);
-  //       });
-  //       setQualityArray(level_array);
-  //     }
-  //   }
-
-  //   if(dash) { 
-  //     if(dash.isReady()){
-  //       setting = dash.getSettings();
-  //       setting.streaming.abr.useDefaultABRRules = false;
-  //       const level_array = dash.getTracksFor("video");
-  //       if(level_array.length > 0) setQualityArray(level_array[0].bitrateList.map((one) => {
-  //         return parseInt(one.height);
-  //       }));
-  //       setting.streaming.bufferTimeAtTopQuality = 5;
-  //       setting.streaming.bufferTimeAtTopQualityLongForm = 10;
-  //       setting.streaming.stableBufferTime = 5;
-  //       setting.streaming.fastSwitchEnabled = true;
-  //       dash.updateSettings(setting);
-  //     }
-  //   }
-  // }
+  const toggleActivePip = () => {
+    if(activePip === false) {
+      playerRef.current.requestPictureInPicture();
+    } else {
+      document.exitPictureInPicture();
+    }
+    setActivePip(!activePip);
+    if(fullScreen) toggleFullScreen();
+  }
 
   const currentTime = playerRef.current ? playerRef.current.currentTime : "00:00";
   const duration = playerRef.current ? playerRef.current.duration : "00:00";
@@ -307,8 +274,8 @@ function VideoDisplay({video}) {
             totalDuration={totalDuration}
             onChangeDisplayFormat={handleChangeDisplayFormat}
             toggleActivePip={toggleActivePip}
-            // activePip={activePip}
             quality_array={quality_array}
+            buffered={buffered}
           />
         </div>
       </div>

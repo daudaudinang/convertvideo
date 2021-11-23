@@ -233,3 +233,16 @@
 
 ######[03/11/2021, 09:06:04][guest][notification] REQUEST: REGISTER
 [03/11/2021, 09:06:58][server][success] Start Server: User Server 1 listening on: 3003
+[04/11/2021, 09:14:28][server][success] Start Server: User Server 1 listening on: 3003
+[04/11/2021, 11:26:10][server][success] Start Server: User Server 1 listening on: 3003
+
+######[04/11/2021, 11:28:25][admin@admin][notification] REQUEST: GET LIST USER
+[04/11/2021, 11:28:26][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+[04/11/2021, 15:30:14][server][success] Start Server: User Server 1 listening on: 3003
+[04/11/2021, 16:48:23][server][success] Start Server: User Server 1 listening on: 3003
+[05/11/2021, 09:43:08][server][success] Start Server: User Server 1 listening on: 3003
+
+######[05/11/2021, 09:57:54][admin@admin][notification] REQUEST: GET LIST USER
+[05/11/2021, 09:57:54][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+[10/11/2021, 16:52:39][server][success] Start Server: User Server 1 listening on: 3003
+[23/11/2021, 15:57:43][server][success] Start Server: User Server 1 listening on: 3003
